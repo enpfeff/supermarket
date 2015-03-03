@@ -5,6 +5,8 @@ package com.supermarket.entities;
  */
 public class ProductC implements Product {
 
+    // If you were to go beyond use spring to initalize as beans with a constructor using a UUID and price variable
+    // in a clientMainConfig.xml
     private double signiture = 3;
     private int price = 30;
 
@@ -13,6 +15,7 @@ public class ProductC implements Product {
         return price;
     }
 
+    // Override the equals and Hashcode to determine equallity in the ShoppingCart Entity so we can use Sets
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

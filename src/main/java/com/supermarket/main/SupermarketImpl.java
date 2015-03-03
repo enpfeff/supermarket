@@ -45,6 +45,8 @@ public class SupermarketImpl implements Supermarket {
         //normalize input
         char[] charInputs = items.toLowerCase().toCharArray();
         //add to shoppingCart
+        // this is a choke point as any new products being added will also have to be added here to make it better
+        // use Spring UUIDs created in a clientMainConfig.xml and use the UUIDs as product recognition
         for (char productId : charInputs) {
             switch (productId) {
                 case 'a':

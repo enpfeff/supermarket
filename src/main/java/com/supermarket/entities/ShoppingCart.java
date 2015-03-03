@@ -7,6 +7,7 @@ import java.util.Set;
 
 /**
  * Created by enpfeff on 3/3/15.
+ * This object will hold all Products and have methods to sort through the cart
  */
 public class ShoppingCart {
 
@@ -32,7 +33,7 @@ public class ShoppingCart {
     }
 
     public Set<Product> getUniqueProductsInList() {
-        // sets only have unique elements
+        // sets only have unique elements using the equals and hascode overrides
         return new HashSet<>(getProducts());
     }
 

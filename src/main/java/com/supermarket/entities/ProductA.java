@@ -5,6 +5,9 @@ package com.supermarket.entities;
  */
 public class ProductA implements Product {
 
+    // If you were to go beyond use spring to initalize as beans with a constructor using a UUID and price variable
+    // in a clientMainConfig.xml
+
     private double signiture = 1;
     private int price = 20;
 

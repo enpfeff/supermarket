@@ -5,6 +5,10 @@ package com.supermarket.entities;
  */
 public class ProductB implements Product, IHasDiscount {
 
+    // If you were to go beyond use spring to initalize as beans with a constructor using a UUID and price variable
+    // in a clientMainConfig.xml
+
+    // As Product B is discounted have it implement IHasDiscount and give it the appropiate variables
     public static final int DISCOUNT_COUNT = 5;
     public static final int DISCOUT_PRICE = 100;
 
@@ -26,6 +30,7 @@ public class ProductB implements Product, IHasDiscount {
         return DISCOUT_PRICE;
     }
 
+    // Override the equals and Hashcode to determine equallity in the ShoppingCart Entity so we can use Sets
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
