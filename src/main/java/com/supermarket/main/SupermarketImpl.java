@@ -27,7 +27,7 @@ public class SupermarketImpl implements Supermarket {
         String input;
 
         //get input
-        if (args == null) {
+        if (args.length != 0) {
             // use the argument input
             input = args[0];
         } else {
