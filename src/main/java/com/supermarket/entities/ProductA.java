@@ -1,7 +1,7 @@
 package com.supermarket.entities;
 
 /**
- * Created by enpfeff on 3/3/15.
+ * Created by ian on 3/3/15.
  */
 public class ProductA implements Product {
 

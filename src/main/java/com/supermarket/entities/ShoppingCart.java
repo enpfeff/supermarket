@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Created by enpfeff on 3/3/15.
+ * Created by ian on 3/3/15.
  * This object will hold all Products and have methods to sort through the cart
  */
 public class ShoppingCart {

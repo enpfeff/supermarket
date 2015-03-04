@@ -1,5 +1,5 @@
 <h1>
-    Supermarket Code Excercise
+    Supermarket Code Excercise: author Ian
 </h1>
 
 <h3>

@@ -9,7 +9,7 @@ import com.supermarket.services.CheckoutService;
 import java.util.Scanner;
 
 /**
- * Created by enpfeff on 3/3/15.
+ * Created by ian on 3/3/15.
  */
 public class SupermarketImpl implements Supermarket {
 

@@ -9,7 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * Created by enpfeff on 3/3/15.
+ * Created by ian on 3/3/15.
  */
 
 public class CheckoutServiceTest {

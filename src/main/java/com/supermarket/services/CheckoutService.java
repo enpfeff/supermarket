@@ -6,7 +6,7 @@ import com.supermarket.entities.Product;
 import com.supermarket.entities.ShoppingCart;
 
 /**
- * Created by enpfeff on 3/3/15.
+ * Created by ian on 3/3/15.
  * Service and Business Logic for Checkout will determine total price and any associated discounts
  */
 public class CheckoutService {
